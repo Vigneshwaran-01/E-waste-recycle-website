@@ -1,0 +1,23 @@
+ 
+ #navbarNav ul li a{
+    position: relative;
+    color: #01030f
+ }
+ 
+ #navbarNav ul li a:hover::first-letter{
+   
+    font-weight: 700;
+    color: blue;
+   
+   
+  
+  transition: 0.1s ease-in-out;
+
+
+}
+#navbarNav ul li a:hover{
+   padding: 5px;
+   transition: 0.3s ease-in-out;
+}
+
+
